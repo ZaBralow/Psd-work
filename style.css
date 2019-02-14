@@ -1,0 +1,234 @@
+body {
+	padding-left: 20vw;
+	padding-right: 20vw;
+	background-color: #F9F9F9;
+
+}
+
+.menu-open {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  right: auto;
+  width: 100%;
+  background: linear-gradient(to bottom, #98B296, #98B296 20%, transparent 20%, transparent 40%, #98B296 40%, #98B296 60%, transparent 60%, transparent 80%, #98B296 80%, #98B296 100%);
+  -webkit-transition: opacity 0.2s ease-out, width 0.2s 0.2s ease-out;
+  transition: opacity 0.2s ease-out, width 0.2s 0.2s ease-out;
+  width: 2vw;
+  height: 3vh;
+  border: none;
+}
+
+.menu {
+	width: 3vw;
+	height: 10vh;
+	padding-top: -5vh;
+}
+
+.menu-close {
+	background-color: #98B296;
+	border: none;
+	border-radius: 5px;
+}
+
+.menu-content {
+    box-sizing: border-box;
+    width: 5vw;
+    height: 7.5vh;
+    transform: translateX(-1000%); /* Скрываем меню */
+    transition: 0.2s;
+    margin: auto;
+    /*box-shadow: 1px 1px 5px rgba(0,0,0,0.7);*/
+    border-radius: 10px;
+    text-align: left;
+}
+.menu-opened .menu-content {
+    transform: none; /* Показываем меню */
+
+}
+
+.knop {
+	background-color: #80B7B3;
+	border: none;
+	width: 12vw;
+	height: 5vw;
+	box-shadow: 10px 10px 50px rgba(0,0,0,0.7);
+	color: white;
+	margin-left: 25vw;
+	font-size: 2vw;
+	margin-top: -1vh;
+} 
+
+.bolshie {
+	font-size: 15vh;
+	letter-spacing: 2vw;
+	opacity: .1;
+	text-align: center;
+	margin-top: -14vh;
+	margin-left: 5vw;
+}
+
+
+/*.bolshie {
+	font-size: 9vw;
+	letter-spacing: 2vw;
+	opacity: .2;
+	text-align: center;
+	margin-top: -14vh;
+	margin-left: 5vw;
+}*/
+
+.txt {
+	width: 20vw;
+	height: 25vw;
+	margin-left: 0;
+}
+
+.travel {
+	font-size: 0.7vw;
+}
+
+.brown {
+	width: 15vw;
+	height: 20vh;
+	margin-left: 22vw;
+	margin-top: -43vh;
+	position: relative;
+	
+}
+
+.taxt {
+	font-size: 1vw;
+}
+
+.full {
+	background-color: #80B7B3;
+	box-shadow: 10px 10px 50px rgba(0,0,0,0.1);
+	color: white;
+	border: none;
+	border-radius: 2vw;
+	cursor: pointer;
+	width: 10vw;
+	height: 3vh;
+	font-size: 1vw;
+
+}
+
+.earth {
+	/*background-image: url('img/volcano.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;*/
+	width: 35vw;
+	height: 56.3vh;
+    margin-top: -28vh;
+    margin-left: 27vw;
+    display: flex;
+    float: right;
+}
+
+.chel {
+	width: 100%;
+	height: 30vh;
+	margin-top: 40vh;
+	margin-left: 0vw;
+	text-align: center;
+}
+
+.golovok {
+	font-size: 1.5vw;
+	font-weight: bold;
+	margin-left: 9vw;
+	width: 70%;
+}
+
+/*.begi {
+	background-image: url('img/man.png');
+	background-size: 100% 100%;
+	background-position: center;
+	width: 60%;
+	height: 90%;
+	margin-left: 12vw;
+}
+
+*/
+
+.begi {
+	max-width: 100%;
+	height: auto; 
+}
+
+.golovok2 {
+	width: 70%;
+	height: 20%;
+	margin-left: 10vw;
+	text-align: left;
+}
+
+.iframe {
+	width: 100%;
+	height: 49vh;
+	margin-top: 95vh;
+}
+
+.glina {
+	width: 45%;
+	height: 30vh;
+	margin-left: 0vw;
+}
+
+.nullia {
+	width: 70%;
+	height: 5%;
+	margin-left: 28vw;
+	margin-top: -34vh;
+}
+
+.beloe {
+	width: 50vw;
+	height: 10vw;
+	margin-left: 10vw;
+	margin-top: -5vh;
+}
+
+.nedotxt {
+	width: 60%;
+	margin-left: 8vw;
+    margin-top: -33vh;
+    height: 28%;
+    position: fixed;
+    position: relative;
+}
+
+.italic {
+	/*font-weight: bold;*/
+	font-size: 1.1vw;
+    font-style: italic;
+}
+
+span {
+	font-weight: bold;
+	/*font-size: vw;*/
+}
+
+
+
+
+
+/*@media (max-width: 768px) {
+	.brown {
+		width: 300px;
+	    height: 200px;
+	    display: block;
+	    
+	}
+
+	.earth {
+		width: 300px;
+	    height: 200px;
+        display: block;
+        
+	}
+}
+*/
