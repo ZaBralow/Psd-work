@@ -2,7 +2,10 @@ body {
 	padding-left: 20vw;
 	padding-right: 20vw;
 	background-color: #F9F9F9;
+}
 
+span {
+	font-weight: bold;
 }
 
 .menu-open {
@@ -37,19 +40,19 @@ body {
     box-sizing: border-box;
     width: 5vw;
     height: 7.5vh;
-    transform: translateX(-1000%); /* Скрываем меню */
+    transform: translateX(-1000%); 
     transition: 0.2s;
     margin: auto;
-    /*box-shadow: 1px 1px 5px rgba(0,0,0,0.7);*/
     border-radius: 10px;
     text-align: left;
+    position: relative;
 }
 .menu-opened .menu-content {
-    transform: none; /* Показываем меню */
+    transform: none; 
 
 }
 
-.knop {
+/*.knop {
 	background-color: #80B7B3;
 	border: none;
 	width: 12vw;
@@ -59,9 +62,22 @@ body {
 	margin-left: 25vw;
 	font-size: 2vw;
 	margin-top: -1vh;
+} */
+
+#butt {
+	background-color: #80B7B3;
+	border: none;
+	width: 12vw;
+	height: 5vw;
+	box-shadow: 10px 10px 50px rgba(0,0,0,0.7);
+	color: white;
+	margin-left: 25vw;
+	font-size: 2vw;
+	margin-top: -0.5vw;
+	position: relative;
 } 
 
-.bolshie {
+/*.bolshie {
 	font-size: 15vh;
 	letter-spacing: 2vw;
 	opacity: .1;
@@ -69,16 +85,16 @@ body {
 	margin-top: -14vh;
 	margin-left: 5vw;
 }
+*/
 
-
-/*.bolshie {
+.bolshie {
 	font-size: 9vw;
 	letter-spacing: 2vw;
 	opacity: .2;
 	text-align: center;
-	margin-top: -14vh;
+	margin-top: -8vw;
 	margin-left: 5vw;
-}*/
+}
 
 .txt {
 	width: 20vw;
@@ -90,13 +106,21 @@ body {
 	font-size: 0.7vw;
 }
 
-.brown {
+/*.brown {
 	width: 15vw;
 	height: 20vh;
 	margin-left: 22vw;
 	margin-top: -43vh;
 	position: relative;
 	
+}*/
+
+#brown {
+	width: 30%;
+	height: 20%;
+	margin-left: 22vw;
+	margin-top: -30vw;
+	position: relative;
 }
 
 .taxt {
@@ -111,27 +135,35 @@ body {
 	border-radius: 2vw;
 	cursor: pointer;
 	width: 10vw;
-	height: 3vh;
+	height: 2vw;
 	font-size: 1vw;
 
 }
 
-.earth {
-	/*background-image: url('img/volcano.png');
+/*.earth {
+	background-image: url('img/volcano.png');
 	background-size: 100% 100%;
-	background-repeat: no-repeat;*/
+	background-repeat: no-repeat;
 	width: 35vw;
 	height: 56.3vh;
     margin-top: -28vh;
     margin-left: 27vw;
     display: flex;
     float: right;
+}*/
+
+#earth {
+	width: 50%;
+	height: 50%;
+    margin-top: -25vw;
+    margin-left: 27vw;
+	float: right;
 }
 
 .chel {
 	width: 100%;
-	height: 30vh;
-	margin-top: 40vh;
+	height: 30vw;
+	margin-top: 12vw;
 	margin-left: 0vw;
 	text-align: center;
 }
@@ -168,37 +200,40 @@ body {
 
 .iframe {
 	width: 100%;
-	height: 49vh;
-	margin-top: 95vh;
+	height: 25vw;
+	margin-top: 40vw;
+	float: left;
 }
 
-.glina {
+
+
+#glina {
 	width: 45%;
-	height: 30vh;
-	margin-left: 0vw;
+	height: 20vw;
+	margin-top: 10vw;
+	
 }
 
-.nullia {
-	width: 70%;
+/*.nullia {
+	width: 35%;
 	height: 5%;
 	margin-left: 28vw;
-	margin-top: -34vh;
-}
+	margin-top: 5vw;
+}*/
 
-.beloe {
-	width: 50vw;
-	height: 10vw;
-	margin-left: 10vw;
-	margin-top: -5vh;
+#beloe {
+	width: 80%;
+	height: 20vw;
+	margin-left: 8vw;
+	margin-top: -10vw;
+	
 }
 
 .nedotxt {
 	width: 60%;
-	margin-left: 8vw;
-    margin-top: -33vh;
+	margin-left: 15vw;
     height: 28%;
-    position: fixed;
-    position: relative;
+    margin-top: 3.5vw;
 }
 
 .italic {
@@ -207,12 +242,68 @@ body {
     font-style: italic;
 }
 
-span {
-	font-weight: bold;
-	/*font-size: vw;*/
+.bob {
+	margin-top: -26vw;
+	width: 50%;
+	height: 20%;
+	margin-left: 25vw;
 }
 
+.agag {
+	font-size: 2vw;
+}
 
+#les {
+	margin-top: 20vw;
+}
+
+.caco {
+	width: 30vw;
+	height: 15vw;
+    background-color: #3C4F57;
+    opacity: 0.9;
+    position: relative;
+    margin-top: -20vw;
+    margin-left: 15vw;
+    display: block;
+    color: white;
+    padding-top: 2vw;
+    text-align: center;
+    font-size: 1vw
+}
+
+.input {
+	width: 70%;
+	margin-top: -9vw;
+	position: relative;
+	margin-left: 21vw;
+}
+
+#input {
+	border-radius: 15px;
+	height: 1.5vw;
+	width: 9vw;
+	border: 5px;
+	border-color: #4C5D61;
+	color: white;
+	background-color: #2B3C40;
+	font-size: 1vw;
+}
+
+.full2 {
+	background-color: #80B7B3;
+	box-shadow: 10px 10px 50px rgba(0,0,0,0.1);
+	color: white;
+	border: none;
+	border-radius: 2vw;
+	cursor: pointer;
+	width: 10vw;
+	height: 1.5vw;
+	font-size: 1vw;
+    position: relative;
+    margin-left: 25vw;
+    margin-top: 1vw;
+}
 
 
 
